@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+pdf_extraction.log
+
+# Temporary files
+*.swp
+*~
+.DS_Store
+
+# Large data files
+*.pdf
+*.jpg
+*.png
+
+# Machine learning / OCR model files
+*.model
+*.pkl
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Pytest coverage
+.coverage
+htmlcov/
+
+# Specific to this project
+output/
+temp/
