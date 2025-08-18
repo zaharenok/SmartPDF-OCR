@@ -1,47 +1,3 @@
-<<<<<<< HEAD
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-
-# Virtual environments
-venv/
-env/
-.env/
-.venv/
-
-# IDE settings
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# Logs
-*.log
-pdf_extraction.log
-
-# Temporary files
-*.swp
-*~
-.DS_Store
-
-# Large data files
-*.pdf
-*.jpg
-*.png
-
-# Machine learning / OCR model files
-*.model
-*.pkl
-=======
 # Python
 __pycache__/
 *.py[cod]
@@ -65,92 +21,53 @@ wheels/
 *.egg
 MANIFEST
 
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Virtual environments
+# Virtual Environments
+venv/
+env/
+smartpdf_env/
 .env
 .venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+.virtualenv
+.conda
 
-# IDEs
-.vscode/
+# IDE and Editor Files
 .idea/
+.vscode/
 *.swp
 *.swo
 *~
->>>>>>> 6124531 (Initial commit: SmartPDF-OCR - Advanced PDF Text Extraction System)
+.DS_Store
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-<<<<<<< HEAD
-# Pytest
-.pytest_cache/
-
-# Mypy
-.mypy_cache/
-
-# Pytest coverage
-.coverage
-htmlcov/
-
-# Specific to this project
-output/
-temp/
-=======
-# pyenv
-.python-version
-
-# Output directories
-output/
-temp/
-cache/
+# Logs and Databases
 *.log
+*.sqlite3
+*.db
 
-# PDF files (input documents)
-*.pdf
-*.PDF
+# Secrets and API Keys
+.env.*
+!.env.example
+*.pem
+*.key
 
-# Image files generated during processing
-*.png
-*.jpg
-*.jpeg
-*.tiff
-*.bmp
+# Output and Temporary Files
+output/
+temp/
+*.tmp
+*.bak
 
-# Text extraction results
+# Machine Learning and AI
+*.pkl
+*.model
+*.h5
+*.hdf5
+
+# Tesseract and OCR Temporary Files
+*.box
 *.txt
-*.md
-*.markdown
+*.tif
+*.tiff
 
-# OCR temporary files
-tesseract_*
-easyocr_*
-
-# System files
+# OS Generated Files
 .DS_Store
 .DS_Store?
 ._*
@@ -159,18 +76,11 @@ easyocr_*
 ehthumbs.db
 Thumbs.db
 
-# Sensitive configuration
-.env.local
-.env.production
-config_local.py
-secrets.py
-
-# Large model files
-*.model
-*.pkl
-*.joblib
-
-# Backup files
-*.bak
-*.backup
->>>>>>> 6124531 (Initial commit: SmartPDF-OCR - Advanced PDF Text Extraction System)
+# Specific Project Exclusions
+*.pdf
+*.zip
+pages/
+images/
+markdown/
+ai_processed/
+ocr_output/
